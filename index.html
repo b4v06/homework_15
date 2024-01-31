@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandage - Home Page</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./dropdown.js">
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }</script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top-square">
+            <div class="header__wrapper">
+                <div class="header__top-bar">
+                    <div class="header__top-bar__credentials">
+                        <div>
+                            <img src="./public/svg/telephone.svg" alt="Logo of Telephone">
+                            <span>(225) 555-0118</span>
+                        </div>
+                        <div>
+                            <img src="./public/svg/mail.svg" alt="Logo of Mail">
+                            <span>michelle.rivera@example.com</span>
+                        </div>
+                    </div>
+                    <p>Follow Us and get a chance to win 80% off</p>
+                    <div>
+                        <span>Follow Us :</span>
+                        <img src="./public/svg/instagram.svg" alt="Logo of Instagram">
+                        <img src="./public/svg/youtube.svg" alt="Logo of YouTube">
+                        <img src="./public/svg/facebook.svg" alt="Logo of Facebook">
+                        <img src="./public/svg/twitter.svg" alt="Logo of Twitter">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__wrapper">
+            <div class="header__main-and-dropdown">
+                <div class="header__main-menu">
+                    <p class="header__logo">Bandage</p>
+                    <!-- Mobile Version -->
+                    <img class="header__mobile-icon" src="./public/svg/mobile-search.svg" alt="Logo of Search">
+                    <img class="header__mobile-icon" src="./public/svg/mobile-cart.svg" alt="Logo of Cart">
+                    <div class="dropdown">
+                        <img class="header__mobile-icon dropbtn" src="./public/svg/mobile-menu.svg"
+                            onclick="myFunction()"></img>
+                    </div>
+                    <!-- Desktop version -->
+                    <ul class="header__desktop-menu">
+                        <li><a href="./index.html">Home</a></li>
+                        <li>
+                            <a href="./index.html">Shop</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7"
+                                fill="none">
+                                <path
+                                    d="M1.42857 0.5L5 4.07143L8.57143 0.5L10 1.21429L5 6.21429L-3.12224e-08 1.21429L1.42857 0.5Z"
+                                    fill="#252B42" />
+                            </svg>
+                        </li>
+                        <li><a href="./index.html">About</a></li>
+                        <li><a href="./index.html">Blog</a></li>
+                        <li><a href="./index.html">Contact</a></li>
+                        <li><a href="./index.html">Pages</a></li>
+                    </ul>
+                    <div class="header__desktop-credentials">
+                        <div class="header__desktop-credentials__login">
+                            <img src="./public/svg/desktop-login.svg" alt="Logo of Login">
+                            <a href="./index.html">Login</a><span>/</span><a href="./index.html">Register</a>
+                        </div>
+                        <img src="./public/svg/desktop-search.svg" alt="Logo of Search">
+                        <div class="header__desktop-credentials__login">
+                            <img src="./public/svg/desktop-cart.svg" alt="Logo of Cart">
+                            <span>1</span>
+                        </div>
+                        <div class="header__desktop-credentials__login">
+                            <img src="./public/svg/desktop-heart.svg" alt="Logo of Heart">
+                            <span>1</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">Product</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-wrapper">
+        <!-- Section 1 - New collection-->
+        <section class="section-1">
+            <div class="section-1__text">
+                <span>Summer 2020</span>
+                <h1>NEW COLLECTION</h1>
+                <p>We know how large objects will act, but things on a small scale.</p>
+                <button>Shop Now</button>
+            </div>
+            <img src="./public/img/new-collection.png" alt="Picture of a Beautiful Woman">
+        </section>
+        <!-- Section 2 - Brands-->
+        <section></section>
+        <!-- Section 3 - Cards-->
+        <section></section>
+        <!-- Section 4 - Bestseller Products-->
+        <section></section>
+        <!-- Section 5 - Featured Products-->
+        <section></section>
+        <!-- Section 6 - The Best Services-->
+        <section></section>
+        <!-- Section 7 - Featured Posts-->
+        <section></section>
+    </main>
+    <footer class="footer">
+        <div class="footer_big-gray-box">
+
+        </div>
+        <div class="footer_small-gray-box">
+
+        </div>
+    </footer>
+</body>
+
+</html>
