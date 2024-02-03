@@ -78,6 +78,14 @@ main {
             letter-spacing: 0.1px;
             height: 62px;
             width: 221px;
+            transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+            &:hover {
+                background: #FFF;
+                color: #23A6F0;
+                cursor: pointer;
+                transform: scale(1.05, 1.05);
+            }
         }
 
         @media screen and (min-width: 900px) {
@@ -162,6 +170,12 @@ main {
 
     &>img {
         width: 150px;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.2, 1.2);
+            cursor: pointer;
+        }
     }
 
     align-items: center;
@@ -254,6 +268,14 @@ main {
             color: rgb(255, 255, 255);
             font-weight: 700;
             line-height: 22px;
+            transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+            &:hover {
+                background: #FFF;
+                color: #23A6F0;
+                cursor: pointer;
+                transform: scale(1.05, 1.05);
+            }
         }
     }
 
@@ -320,6 +342,7 @@ main {
                 font-weight: 700;
                 line-height: 22px;
 
+
                 @media screen and (min-width: 1920px) {
                     font-size: 16px;
                 }
@@ -378,6 +401,14 @@ main {
         font-weight: 700;
         line-height: 22px;
         background-color: transparent;
+        transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+        &:hover {
+            background: #23A6F0;
+            color: #fff;
+            cursor: pointer;
+            transform: scale(1.05, 1.05);
+        }
 
     }
 
@@ -546,6 +577,12 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1, 1.1);
+            }
 
             &>img {
                 width: 183px;
@@ -736,6 +773,7 @@ main {
             font-weight: 400;
             line-height: 30px;
             text-align: center;
+
             @media screen and (min-width: 1920px) {
                 font-size: 26px;
             }
@@ -749,6 +787,7 @@ main {
             line-height: 32px;
             letter-spacing: 0.1px;
             text-align: center;
+
             @media screen and (min-width: 1920px) {
                 font-size: 30px;
             }
@@ -760,9 +799,10 @@ main {
             font-weight: 400;
             line-height: 20px;
             text-align: center;
+
             @media screen and (min-width: 1920px) {
                 font-size: 18px;
-                }
+            }
         }
     }
 
@@ -773,6 +813,12 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1, 1.1);
+        }
 
         &>h6 {
             margin: 20px 0 20px 0;
@@ -782,6 +828,7 @@ main {
             line-height: 32px;
             letter-spacing: 0.1px;
             text-align: center;
+
             @media screen and (min-width: 1920px) {
                 font-size: 30px;
             }
@@ -793,8 +840,9 @@ main {
             font-weight: 400;
             line-height: 20px;
             text-align: center;
+
             @media screen and (min-width: 1920px) {
-            font-size: 18px;
+                font-size: 18px;
             }
         }
     }
@@ -849,6 +897,7 @@ main {
         flex-direction: column;
         align-items: center;
         gap: 30px;
+
         @media screen and (min-width: 1440px) {
             flex-direction: row;
             width: 70%;
@@ -864,6 +913,13 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.1, 1.1);
+        }
+
         &>img {
             width: 330px;
             height: 300px;
@@ -878,6 +934,7 @@ main {
             display: flex;
             flex-direction: column;
             gap: 10px;
+
             &__google {
                 display: flex;
                 align-items: center;
@@ -886,10 +943,12 @@ main {
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 16px;
+
                 &__blue {
                     color: rgb(142, 194, 242);
                 }
             }
+
             &>h6 {
                 margin: 0;
                 width: 247px;
@@ -898,12 +957,14 @@ main {
                 font-weight: 400;
                 line-height: 30px;
             }
+
             &>p {
                 margin: 0;
                 color: rgb(115, 115, 115);
                 font-weight: 400;
                 line-height: 20px;
             }
+
             &__date {
                 margin-top: 15px;
                 display: flex;
@@ -913,12 +974,14 @@ main {
                 font-size: 12px;
                 font-weight: 400;
                 line-height: 16px;
+
                 &>div {
                     display: flex;
                     align-items: center;
                     gap: 7px;
                 }
             }
+
             &__learn-more {
                 margin-top: 15px;
                 display: flex;
@@ -928,20 +991,25 @@ main {
                 font-weight: 700;
                 line-height: 24px;
             }
+
             @media screen and (min-width: 1920px) {
                 &__google {
                     font-size: 14px;
                 }
+
                 &>h6 {
                     font-size: 24px;
                 }
+
                 &>p {
                     font-size: 16px;
                 }
+
                 &__date {
 
                     font-size: 14px;
                 }
+
                 &__learn-more {
                     font-size: 16px;
                 }

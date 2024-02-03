@@ -55,11 +55,23 @@ header {
   }
   .header__top-bar__credentials > div > span {
     margin-left: 5px;
+    transition: text-decoration 0.3s ease-in-out;
+  }
+  .header__top-bar__credentials > div > span:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
   .header__top-bar__socials {
     display: flex;
     align-items: center;
     gap: 16px;
+  }
+  .header__top-bar__socials > img {
+    transition: transform 0.3s ease-in-out;
+  }
+  .header__top-bar__socials > img:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -117,6 +129,11 @@ header {
 }
 .header__desktop-menu > li {
   min-width: 63px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.header__desktop-menu > li:hover {
+  color: #23A6F0;
+  transform: scale(1.1, 1.1);
 }
 @media screen and (min-width: 1440px) {
   .header__desktop-menu {
@@ -143,10 +160,22 @@ header {
     font-weight: 700;
     line-height: 24px;
   }
+  .header__desktop-credentials > img {
+    transition: transform 0.3s ease-in-out;
+  }
+  .header__desktop-credentials > img:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+  }
   .header__desktop-credentials__login {
     display: flex;
     align-items: center;
     gap: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .header__desktop-credentials__login:hover {
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
   }
 }
 @media screen and (min-width: 1440px) and (min-width: 1920px) {
@@ -240,6 +269,13 @@ main {
   letter-spacing: 0.1px;
   height: 62px;
   width: 221px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.section-1__text > button:hover {
+  background: #FFF;
+  color: #23A6F0;
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
 }
 @media screen and (min-width: 900px) {
   .section-1__text {
@@ -311,6 +347,11 @@ main {
 }
 .section-2 > img {
   width: 150px;
+  transition: transform 0.3s ease-in-out;
+}
+.section-2 > img:hover {
+  transform: scale(1.2, 1.2);
+  cursor: pointer;
 }
 @media screen and (min-width: 1000px) {
   .section-2 {
@@ -399,6 +440,13 @@ main {
   color: rgb(255, 255, 255);
   font-weight: 700;
   line-height: 22px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.section-3__text-block > button:hover {
+  background: #FFF;
+  color: #23A6F0;
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
 }
 @media screen and (min-width: 1440px) {
   .section-3 {
@@ -517,6 +565,13 @@ main {
   font-weight: 700;
   line-height: 22px;
   background-color: transparent;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.section-4 > button:hover {
+  background: #23A6F0;
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
 }
 .section-4__text {
   display: flex;
@@ -668,6 +723,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  .section-4__card-desktop:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
   }
   .section-4__card-desktop > img {
     width: 183px;
@@ -876,6 +936,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+.section-6__element:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
 }
 .section-6__element > h6 {
   margin: 20px 0 20px 0;
@@ -965,6 +1030,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+.section-7__card:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
 }
 .section-7__card > img {
   width: 330px;
@@ -1119,6 +1189,13 @@ main {
   font-weight: 700;
   line-height: 24px;
 }
+.footer__list > li {
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.footer__list > li:hover {
+  color: #2A7CC7;
+  transform: scale(1.1, 1.1);
+}
 .footer__list__main {
   margin-bottom: 10px;
   color: rgb(37, 43, 66);
@@ -1168,6 +1245,11 @@ main {
   line-height: 28px;
   padding-left: 20px;
 }
+@media screen and (min-width: 1920px) {
+  .footer__email__wrapper > input {
+    font-size: 20px;
+  }
+}
 .footer__email__wrapper > button {
   position: absolute;
   right: 0;
@@ -1180,6 +1262,12 @@ main {
   font-weight: 400;
   line-height: 28px;
   text-align: center;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.footer__email__wrapper > button:hover {
+  background: #FFF;
+  color: #23A6F0;
+  cursor: pointer;
 }
 .footer__email > p {
   margin: 0;
@@ -1187,6 +1275,11 @@ main {
   font-size: 12px;
   font-weight: 400;
   line-height: 28px;
+}
+@media screen and (min-width: 1920px) {
+  .footer__email > p {
+    font-size: 16px;
+  }
 }
 .footer__rights-box {
   width: 100%;
@@ -1200,6 +1293,12 @@ main {
   font-weight: 700;
   line-height: 24px;
   text-align: center;
+  transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+}
+.footer__rights-box > div > p:hover {
+  color: rgb(37, 43, 66);
+  text-decoration: underline;
+  cursor: pointer;
 }
 @media screen and (min-width: 1440px) {
   .footer__rights-box > div > p {

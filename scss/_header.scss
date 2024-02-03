@@ -40,18 +40,35 @@ header {
                 display: flex;
                 align-items: center;
                 gap: 30px;
+
                 &>div>img {
                     position: relative;
                     top: 3px;
                 }
+
                 &>div>span {
                     margin-left: 5px;
+                    transition: text-decoration 0.3s ease-in-out;
+
+                    &:hover {
+                        text-decoration: underline;
+                        cursor: pointer;
+                    }
                 }
             }
+
             &__socials {
                 display: flex;
                 align-items: center;
                 gap: 16px;
+                &>img {
+                    transition: transform 0.3s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.1, 1.1);
+                        cursor: pointer;
+                    }
+                }
             }
         }
 
@@ -87,7 +104,7 @@ header {
         }
 
     }
-    
+
     &__main-and-dropdown {
         margin: 40px 0 97px 0;
         display: flex;
@@ -114,6 +131,12 @@ header {
 
         &>li {
             min-width: 63px;
+            transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+
+            &:hover {
+                color: #23A6F0;
+                transform: scale(1.1, 1.1);
+            }
         }
 
         @media screen and (min-width: 1440px) {
@@ -140,10 +163,25 @@ header {
             font-weight: 700;
             line-height: 24px;
 
+            &>img {
+                transition: transform 0.3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1, 1.1);
+                    cursor: pointer;
+                }
+            }
+
             &__login {
                 display: flex;
                 align-items: center;
                 gap: 5px;
+                transition: transform 0.3s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1, 1.1);
+                    cursor: pointer;
+                }
 
                 @media screen and (min-width: 1920px) {
                     &>img {
@@ -153,6 +191,7 @@ header {
                 }
             }
         }
+
         @media screen and (min-width: 1920px) {
             &>img {
                 width: 20px;
