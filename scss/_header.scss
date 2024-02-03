@@ -39,7 +39,19 @@ header {
             &__credentials {
                 display: flex;
                 align-items: center;
-                gap: 10px;
+                gap: 30px;
+                &>div>img {
+                    position: relative;
+                    top: 3px;
+                }
+                &>div>span {
+                    margin-left: 5px;
+                }
+            }
+            &__socials {
+                display: flex;
+                align-items: center;
+                gap: 16px;
             }
         }
 
