@@ -1,4 +1,173 @@
 .footer {
+    &-wrapper {
+        max-width: 1050px;
+        margin: 0 auto 0 auto;
+    }
+
     display: flex;
     flex-direction: column;
+
+    &__socials-box {
+        width: 100%;
+        height: 173px;
+        background: rgb(250, 250, 250);
+    }
+
+    &__socials {
+        display: flex;
+        flex-direction: column;
+
+        &__logo {
+            margin: 53px 0 0 45px;
+            color: #252B42;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: 0.1px;
+
+            @media screen and (min-width: 1920px) {
+                font-size: 30px;
+            }
+        }
+
+        &__svg {
+            margin: 30px 0 0 45px;
+            display: flex;
+            align-items: center;
+            gap: 22px;
+
+            @media screen and (min-width: 1920px) {
+                &>img {
+                    height: 32px;
+                    width: 32px;
+                }
+            }
+        }
+
+        @media screen and (min-width: 1440px) {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            &__svg {
+                margin: 53px 0 0 0px;
+            }
+        }
+    }
+
+    &__link-box {
+        margin: 70px 0 70px 46px;
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (min-width: 1440px) {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: rgb(115, 115, 115);
+        font-weight: 700;
+        line-height: 24px;
+
+        &__main {
+            margin-bottom: 10px;
+            color: rgb(37, 43, 66);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+        }
+
+        @media screen and (min-width: 1920px) {
+            font-size: 18px;
+
+            &__main {
+                font-size: 20px;
+            }
+        }
+    }
+
+    &__email {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+
+        &>span {
+            margin-bottom: 19px;
+            color: rgb(37, 43, 66);
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+        }
+
+        &__wrapper {
+            width: 321px;
+            height: 58px;
+            position: relative;
+
+            &>input {
+                position: absolute;
+                width: 315px;
+                height: 54px;
+                border: 1px solid rgb(230, 230, 230);
+                border-radius: 5px;
+                background: rgb(249, 249, 249);
+                &::placeholder {
+                    color: rgb(115, 115, 115);
+                    font-weight: 400;
+                    line-height: 28px;
+                    padding-left: 20px;
+                }
+            }
+
+            &>button {
+                position: absolute;
+                right: 0;
+                width: 117px;
+                height: 58px;
+                border: 1px solid rgb(230, 230, 230);
+                border-radius: 0px 5px 5px 0px;
+                background: rgb(35, 166, 240);
+                color: rgb(255, 255, 255);
+                font-weight: 400;
+                line-height: 28px;
+                text-align: center;
+            }
+        }
+
+        &>p {
+            margin: 0;
+            color: rgb(115, 115, 115);
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    }
+
+    &__rights-box {
+        width: 100%;
+        height: 98px;
+        background: rgb(250, 250, 250);
+
+        &>div>p {
+            margin: 25px 0 0 28%;
+            width: 46%;
+            color: rgb(115, 115, 115);
+            font-weight: 700;
+            line-height: 24px;
+            text-align: center;
+
+            @media screen and (min-width: 1440px) {
+                margin: 25px 0 0 40px;
+                text-align: left;
+            }
+        }
+    }
 }
