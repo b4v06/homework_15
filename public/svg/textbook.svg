@@ -1,0 +1,25 @@
+<svg width="72.000000" height="72.000000" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip2986_9362">
+			<rect width="72.000000" height="72.000000" transform="translate(-0.500000 0.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<clipPath id="clip2986_9361">
+			<rect width="72.000000" height="72.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip2986_9361)">
+		<rect width="72.000000" height="72.000000" transform="translate(-0.500000 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip2986_9362)">
+			<path d="M42.25 22.5L58 22.5L58 27L42.25 27L42.25 22.5Z" fill="#23A6F0" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path d="M42.25 33.75L58 33.75L58 38.25L42.25 38.25L42.25 33.75Z" fill="#23A6F0" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path d="M42.25 45L58 45L58 49.5L42.25 49.5L42.25 45Z" fill="#23A6F0" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path d="M13 22.5L28.75 22.5L28.75 27L13 27L13 22.5Z" fill="#23A6F0" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path d="M13 33.75L28.75 33.75L28.75 38.25L13 38.25L13 33.75Z" fill="#23A6F0" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path d="M13 45L28.75 45L28.75 49.5L13 49.5L13 45Z" fill="#23A6F0" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path d="M62.5 11.25L8.5 11.25C7.30688 11.251 6.16296 11.7256 5.31934 12.5693C4.47571 13.4131 4.00122 14.5571 4 15.75L4 56.25C4.00122 57.4429 4.47571 58.5869 5.31934 59.4307C6.16296 60.2744 7.30688 60.749 8.5 60.75L62.5 60.75C63.6931 60.749 64.837 60.2744 65.6807 59.4307C66.5243 58.5869 66.9988 57.4429 67 56.25L67 15.75C66.9988 14.5571 66.5243 13.4131 65.6807 12.5693C64.837 11.7256 63.6931 11.251 62.5 11.25ZM8.5 15.75L33.25 15.75L33.25 56.25L8.5 56.25L8.5 15.75ZM37.75 56.25L37.75 15.75L62.5 15.75L62.5 56.25L37.75 56.25Z" fill="#23A6F0" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>
